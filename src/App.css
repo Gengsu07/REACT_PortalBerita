@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* playfair-display-900 - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    url("./assets/playfair-display-v30-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./assets/playfair-display-v30-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(88, 203, 238), rgb(14, 241, 135));
+}
+
+.header {
+  border: 3px solid #ffff;
+  padding: 2rem 0rem;
+  background: rgb(250, 239, 239);
+  margin: 0.5rem 0.5rem;
+}
+
+.header h1 {
+  font-family: "Playfair Display";
+  font-weight: 800;
+  color: rgb(250, 1, 1);
+}
+
+.selector {
+  padding: 1rem 3rem;
+}
